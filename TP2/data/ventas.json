@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "id_usuario": 1,
+    "fecha": "2026-04-05",
+    "total": 130000.50,
+    "direccion": "Calle Rivadavia 123, Arroyito, Córdoba",
+    "enviado": true,
+    "productos": [
+      { "id_producto": 1, "cantidad": 1 },
+      { "id_producto": 4, "cantidad": 1 }
+    ]
+  },
+  {
+    "id": 2,
+    "id_usuario": 2,
+    "fecha": "2026-04-06",
+    "total": 120000.00,
+    "direccion": "Av. Principal 456, Arroyito, Córdoba",
+    "enviado": false,
+    "productos": [
+      { "id_producto": 2, "cantidad": 1 }
+    ]
+  }
+]

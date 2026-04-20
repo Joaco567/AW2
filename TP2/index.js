@@ -1,0 +1,28 @@
+import express from 'express'
+import dotenv from 'dotenv'
+import { readFile, writeFile } from 'fs/promises'
+import { json } from 'stream/consumers'
+import e from 'express'
+
+//Importaciones de rutas
+import productosRoutes from './routes/productos.routes.js'
+import usuariosRoutes from './routes/usuarios.routes.js'
+import ventasRoutes from './routes/ventas.routes.js'
+
+//Traer variables de entorno
+dotenv.config()
+
+const app = express()
+
+const port = process.env.PORT || 3000
+
+app.use(express.json());
+
+app.listen(port, () =>{
+    console.log(`Servidor levantado en puerto ${port}`)
+})
+
+// Rutas de productos
+app.use('/product', productosRoutes)
+app.use('/user', usuariosRoutes)
+app.use('/sale', ventasRoutes)
