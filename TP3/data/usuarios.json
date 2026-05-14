@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "nombre": "Joaquín",
+    "apellido": "Miretti",
+    "email": "joaco.sistemas@email.com",
+    "contrasena": "hash_password_123",
+    "fecha": "2005-11-16",
+    "direccion": "Avenida de Prueba 123",
+    "activo": true
+  },
+  {
+    "id": 2,
+    "nombre": "Aylen",
+    "apellido": "García",
+    "email": "aylen.ventas@email.com",
+    "contrasena": "manga_fan_99",
+    "fecha": "2003-08-27",
+    "direccion": "Avenida de Prueba 123",
+    "activo": true
+  },
+  {
+    "id": 3,
+    "nombre": "Lucas",
+    "apellido": "Rodríguez",
+    "email": "lucas.dev@email.com",
+    "contrasena": "qwerty2026",
+    "fecha": "2005-10-27",
+    "direccion": "Avenida de Prueba 123",
+    "activo": false
+  },
+  {
+    "id": 4,
+    "nombre": "Joaquín",
+    "apellido": "Miretti",
+    "email": "joacomiretti567@gmail.com",
+    "contrasena": "prueba123",
+    "fecha": "2005-11-16",
+    "direccion": "Avenida de Prueba 123",
+    "activo": true
+  },
+  {
+    "id": 5,
+    "nombre": "Prueba",
+    "apellido": "ApePrueba",
+    "email": "prueba@gmail.com",
+    "contrasena": "prueba",
+    "fecha": "2005-11-16",
+    "direccion": "Avenida de Prueba 567",
+    "activo": true
+  },
+  {
+    "id": 6,
+    "nombre": "Maria",
+    "apellido": "Perez",
+    "email": "mariaperez@gmail.com",
+    "contrasena": "maria123",
+    "fecha": "1983-10-26",
+    "direccion": "Calle de Prueba 16",
+    "activo": true
+  },
+  {
+    "id": 7,
+    "nombre": "Prueba2",
+    "apellido": "Ape2",
+    "email": "prueba2@gmail.com",
+    "contrasena": "prueba2",
+    "fecha": "2026-05-06",
+    "direccion": "Prueba de Calle 2",
+    "activo": true
+  },
+  {
+    "id": 8,
+    "nombre": "Prueba3",
+    "apellido": "Ape3",
+    "email": "prueba3@gmail.com",
+    "contrasena": "prueba3",
+    "fecha": "2026-05-06",
+    "direccion": "Calle de Prueba 3",
+    "activo": true
+  },
+  {
+    "id": 9,
+    "nombre": "Prueba4",
+    "apellido": "Ape4",
+    "email": "prueba4@gmail.com",
+    "contrasena": "prueba4",
+    "fecha": "2026-05-06",
+    "direccion": "Calle de Prueba 4",
+    "activo": true
+  },
+  {
+    "id": 10,
+    "nombre": "Prueba5",
+    "apellido": "Ape5",
+    "email": "prueba5@gmail.com",
+    "contrasena": "prueba5",
+    "fecha": "2026-05-06",
+    "direccion": "Calle de Prueba 5",
+    "activo": true
+  },
+  {
+    "id": 11,
+    "nombre": "Prueba6",
+    "apellido": "Ape6",
+    "email": "prueba6@gmail.com",
+    "contrasena": "prueba6",
+    "fecha": "2026-05-06",
+    "direccion": "Calle de Prueba 6",
+    "activo": true
+  }
+]

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+    <title>Registro</title>
+</head>
+<body data-bs-theme="dark">
+    <div class="container-md">
+        <div class="card mt-5">
+            <h5 class="card-header text-center">Crear cuenta</h5>
+
+            <div class="card-body p-4">
+                <form id="formRegistro">
+                    <div class="mb-3">
+                        <label for="txtNombre">
+                            <b>Nombre:</b>
+                        </label>
+                        <input type="text" id="txtNombre" name="txtNombre" class="form-control" placeholder="Ingrese su nombre" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="txtApellido">
+                            <b>Apellido:</b>
+                        </label>
+                        <input type="text" id="txtApellido" name="txtApellido" class="form-control" placeholder="Ingrese su apellido" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="txtEmail">
+                            <b>Email:</b>
+                        </label>
+                        <input type="email" name="txtEmail" id="txtEmail" class="form-control" placeholder="Ingrese su email" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="txtPassword">
+                            <b>Contraseña:</b>
+                        </label>
+                        <input type="password" name="txtPassword" id="txtPassword" class="form-control" placeholder="Ingrese su contraseña" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="txtFecha">
+                            <b>Fecha de Nacimiento:</b>
+                        </label>
+                        <input type="date" name="txtFecha" id="txtFecha" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="txtDireccion">
+                            <b>Dirección:</b>
+                        </label>
+                        <input type="text" name="txtDireccion" id="txtDireccion" class="form-control" placeholder="Ingrese su dirección" required>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <button type="submit" class="btn btn-outline-primary">
+                            <i class="bi bi-box-arrow-in-right"></i> Registrarse
+                        </button>
+                    </div>
+                </form>
+
+                <div class="text-center mt-3">
+                    <p class="text-muted small">
+                        ¿Ya tenés cuenta? <a href="./login.html" class="text-primary">Iniciá sesión aquí</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script type="module">
+        import { registrarUsuario } from "../auth/auth.js"
+        document.getElementById("formRegistro").addEventListener("submit", registrarUsuario)
+    </script>
+</body>
+</html>
