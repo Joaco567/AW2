@@ -1,0 +1,478 @@
+[
+  {
+    "id": 1,
+    "id_usuario": 1,
+    "fecha": "4/5/2026",
+    "total": 130000.5,
+    "direccion": "Calle Rivadavia 123, Arroyito, Córdoba",
+    "enviado": true,
+    "productos": [
+      {
+        "id_producto": 1,
+        "cantidad": 1
+      },
+      {
+        "id_producto": 4,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "id_usuario": 2,
+    "fecha": "4/6/2026",
+    "total": 120000,
+    "direccion": "Av. Principal 456, Arroyito, Córdoba",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": 2,
+        "cantidad": 1
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "id_usuario": 1,
+    "fecha": "12/5/2026",
+    "total": 31000,
+    "direccion": "Av. Principal 456, Arroyito, Córdoba",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "3",
+        "cantidad": 2,
+        "precio_unitario": 15500
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "id_usuario": 1,
+    "fecha": "12/5/2026",
+    "total": 120000,
+    "direccion": "Av. Principal 456, Arroyito, Córdoba",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "2",
+        "cantidad": 1,
+        "precio_unitario": 120000
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "id_usuario": 1,
+    "fecha": "12/5/2026",
+    "total": 15500,
+    "direccion": "Av. Principal 456, Arroyito, Córdoba",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "3",
+        "cantidad": 1,
+        "precio_unitario": 15500
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "id_usuario": 1,
+    "fecha": "12/5/2026",
+    "total": 15500,
+    "direccion": "Av. Principal 456, Arroyito, Córdoba",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "3",
+        "cantidad": 1,
+        "precio_unitario": 15500
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "id_usuario": 1,
+    "fecha": "12/5/2026",
+    "total": 215500,
+    "direccion": "Av. Principal 456, Arroyito, Córdoba",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "2",
+        "cantidad": 1,
+        "precio_unitario": 120000
+      },
+      {
+        "id_producto": "3",
+        "cantidad": 1,
+        "precio_unitario": 15500
+      },
+      {
+        "id_producto": "1",
+        "cantidad": 1,
+        "precio_unitario": 80000
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "id_usuario": 1,
+    "fecha": "12/5/2026",
+    "total": 15500,
+    "direccion": "Av. Principal 456, Arroyito, Córdoba",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "3",
+        "cantidad": 1,
+        "precio_unitario": 15500
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "id_usuario": 1,
+    "fecha": "12/5/2026",
+    "total": 120000,
+    "direccion": "Av. Principal 456, Arroyito, Córdoba",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "2",
+        "cantidad": 1,
+        "precio_unitario": 120000
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "id_usuario": 1,
+    "fecha": "12/5/2026",
+    "total": 15500,
+    "direccion": "Av. Principal 456, Arroyito, Córdoba",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "3",
+        "cantidad": 1,
+        "precio_unitario": 15500
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "id_usuario": 1,
+    "fecha": "12/5/2026",
+    "total": 120000,
+    "direccion": "Av. Principal 456, Arroyito, Córdoba",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "2",
+        "cantidad": 1,
+        "precio_unitario": 120000
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "id_usuario": 1,
+    "fecha": "12/5/2026",
+    "total": 15500,
+    "direccion": "Av. Principal 456, Arroyito, Córdoba",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "3",
+        "cantidad": 1,
+        "precio_unitario": 15500
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "id_usuario": 1,
+    "fecha": "12/5/2026",
+    "total": 95500,
+    "direccion": "Av. Principal 456, Arroyito, Córdoba",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "3",
+        "cantidad": 1,
+        "precio_unitario": 15500
+      },
+      {
+        "id_producto": "1",
+        "cantidad": 1,
+        "precio_unitario": 80000
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "id_usuario": 1,
+    "fecha": "12/5/2026",
+    "total": 45000,
+    "direccion": "Av. Principal 456, Arroyito, Córdoba",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "4",
+        "cantidad": 1,
+        "precio_unitario": 45000
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "id_usuario": 1,
+    "fecha": "12/5/2026",
+    "total": 360000,
+    "direccion": "Av. Principal 456, Arroyito, Córdoba",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "2",
+        "cantidad": 3,
+        "precio_unitario": 120000
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "id_usuario": 1,
+    "fecha": "12/5/2026",
+    "total": 380500,
+    "direccion": "Calle Rivadavia 123, Arroyito, Córdoba",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "2",
+        "cantidad": 2,
+        "precio_unitario": 120000
+      },
+      {
+        "id_producto": "4",
+        "cantidad": 1,
+        "precio_unitario": 45000
+      },
+      {
+        "id_producto": "3",
+        "cantidad": 1,
+        "precio_unitario": 15500
+      },
+      {
+        "id_producto": "1",
+        "cantidad": 1,
+        "precio_unitario": 80000
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "id_usuario": 1,
+    "fecha": "12/5/2026",
+    "total": 351500,
+    "direccion": "Tomás Juarez 1356",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "1",
+        "cantidad": 1,
+        "precio_unitario": 80000
+      },
+      {
+        "id_producto": "3",
+        "cantidad": 3,
+        "precio_unitario": 15500
+      },
+      {
+        "id_producto": "4",
+        "cantidad": 5,
+        "precio_unitario": 45000
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "id_usuario": 1,
+    "fecha": "12/5/2026",
+    "total": 31000,
+    "direccion": "Tomás Juarez 1356",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "3",
+        "cantidad": 2,
+        "precio_unitario": 15500
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "fecha": "13/5/2026",
+    "total": 135500,
+    "direccion": "Tomás Juarez 1356",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "3",
+        "cantidad": 1,
+        "precio_unitario": 15500
+      },
+      {
+        "id_producto": "2",
+        "cantidad": 1,
+        "precio_unitario": 120000
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "id_usuario": 6,
+    "fecha": "13/5/2026",
+    "total": 95500,
+    "direccion": "Tomás Juarez 1356",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "1",
+        "cantidad": 1,
+        "precio_unitario": 80000
+      },
+      {
+        "id_producto": "3",
+        "cantidad": 1,
+        "precio_unitario": 15500
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "id_usuario": 1,
+    "fecha": "13/5/2026",
+    "total": 151000,
+    "direccion": "prueba123",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "3",
+        "cantidad": 2,
+        "precio_unitario": 15500
+      },
+      {
+        "id_producto": "2",
+        "cantidad": 1,
+        "precio_unitario": 120000
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "id_usuario": 1,
+    "fecha": "13/5/2026",
+    "total": 135500,
+    "direccion": "Avenida de Prueba 123",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "2",
+        "cantidad": 1,
+        "precio_unitario": 120000
+      },
+      {
+        "id_producto": "3",
+        "cantidad": 1,
+        "precio_unitario": 15500
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "id_usuario": 6,
+    "fecha": "13/5/2026",
+    "total": 76000,
+    "direccion": "Calle de Prueba 16",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "4",
+        "cantidad": 1,
+        "precio_unitario": 45000
+      },
+      {
+        "id_producto": "3",
+        "cantidad": 2,
+        "precio_unitario": 15500
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "id_usuario": 4,
+    "fecha": "13/5/2026",
+    "total": 170000,
+    "direccion": "Avenida de Prueba 123",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "4",
+        "cantidad": 2,
+        "precio_unitario": 45000
+      },
+      {
+        "id_producto": "1",
+        "cantidad": 1,
+        "precio_unitario": 80000
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "id_usuario": 4,
+    "fecha": "13/5/2026",
+    "total": 93000,
+    "direccion": "Avenida de Prueba 123",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "3",
+        "cantidad": 6,
+        "precio_unitario": 15500
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "id_usuario": 9,
+    "fecha": "13/5/2026",
+    "total": 31000,
+    "direccion": "Calle de Prueba 4",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "3",
+        "cantidad": 2,
+        "precio_unitario": 15500
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "id_usuario": 10,
+    "fecha": "13/5/2026",
+    "total": 77500,
+    "direccion": "Calle de Prueba 5",
+    "enviado": false,
+    "productos": [
+      {
+        "id_producto": "3",
+        "cantidad": 5,
+        "precio_unitario": 15500
+      }
+    ]
+  }
+]
