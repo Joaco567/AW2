@@ -28,8 +28,9 @@ app.listen(port, () =>{
 
 app.use(express.static(path.join(process.cwd(), 'public')))
 
+// Redireccionar la raíz al Home
 app.get('/', (req, res) => {
-    res.sendFile(path.join(process.cwd(), 'public', 'pages', 'home.html'))
+    res.redirect('/pages/home.html')
 })
 
 // Rutas de productos - Endpoints
