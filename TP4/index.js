@@ -30,7 +30,7 @@ app.use(express.static(path.join(process.cwd(), 'public')))
 
 // Redireccionar la raíz al Home
 app.get('/', (req, res) => {
-    res.redirect('/pages/home.html')
+    res.redirect('../pages/home.html')
 })
 
 // Rutas de productos - Endpoints
