@@ -4,6 +4,11 @@ import { readFile, writeFile } from 'fs/promises'
 import { json } from 'stream/consumers'
 import e from 'express'
 import path from 'path'
+import { fileURLToPath } from 'url'
+
+// Crear __dirname de forma nativa para módulos ES6
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 //Importaciones de rutas
 import productosRoutes from './routes/productos.routes.js'
@@ -26,11 +31,13 @@ app.listen(port, () =>{
 // Levantar Frontend
 /* app.use(express.static('./public')) */
 
+// Servir archivos estáticos apuntando a la ruta absoluta de public
+app.use(express.static(path.join(__dirname, 'public')))
 app.use(express.static(path.join(process.cwd(), 'public')))
 
-// Redireccionar la raíz al Home
+// Redireccionar la raíz '/' al Home
 app.get('/', (req, res) => {
-    res.redirect('../pages/home.html')
+    res.sendFile(path.join(__dirname, 'public', 'pages', 'home.html'))
 })
 
 // Rutas de productos - Endpoints
