@@ -1,8 +1,14 @@
 import { readFile } from 'fs/promises'
+import path from 'path'
 
-const file = await readFile('./data/productos.json', 'utf-8')
-const productData = JSON.parse(file)
+let productData = []
+try {
+    const file = await readFile(path.join(process.cwd(), 'data', 'productos.json'), 'utf-8')
+    productData = JSON.parse(file)
+} catch (error) {
+    console.log("Aviso: No se pudo leer productos.json en Vercel, continuando...")
+}
 
-export const get_product_byId = (id)=>{
+export const get_product_byId = (id) => {
     return productData.find(e => e.id === id)
 }
