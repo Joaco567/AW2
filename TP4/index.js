@@ -3,6 +3,7 @@ import dotenv from 'dotenv'
 import { readFile, writeFile } from 'fs/promises'
 import { json } from 'stream/consumers'
 import e from 'express'
+import path from 'path'
 
 //Importaciones de rutas
 import productosRoutes from './routes/productos.routes.js'
@@ -23,7 +24,13 @@ app.listen(port, () =>{
 })
 
 // Levantar Frontend
-app.use(express.static('./public'))
+/* app.use(express.static('./public')) */
+
+app.use(express.static(path.join(process.cwd(), 'public')))
+
+app.get('/', (req, res) => {
+    res.sendFile(path.join(process.cwd(), 'public', 'pages', 'home.html'))
+})
 
 // Rutas de productos - Endpoints
 app.use('/product', productosRoutes)
